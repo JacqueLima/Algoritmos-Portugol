@@ -1,1 +1,1 @@
-# Algortimos-Portugol
+# Algoritmos-Portugol
