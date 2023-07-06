@@ -15,7 +15,7 @@ programa
 	}
 	funcao valorSalario()
 	{
-		escreva("Digite o valor so seu salário: ")
+		escreva("Digite o valor do seu salário: ")
 		leia (salario)
 	}
 	funcao semdescontoIr()
@@ -28,7 +28,7 @@ programa
 	 funcao comdescontoIr()   
 	 {
 	 	
-	 	 se (salario>=1000 e salario==2200){
+	 	 se (salario>=1000 ou salario==2200){
 	 	 ir= salario *0.13 
 		 salariofinal =salario-ir	
 	 	 escreva("\n salário terá desconto de 13%:  ",salariofinal)
