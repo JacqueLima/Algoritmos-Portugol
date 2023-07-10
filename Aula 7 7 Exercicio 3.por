@@ -12,12 +12,12 @@ programa
      		}
      	 	senao se (valor>50000){
                calcularDes(0.05)
-               escreva("Seu desconto será de 50% e o valor do seu veiculo é: ",valorF)
+               escreva("Seu desconto será de 5% e o valor do seu veiculo é: ",valorF)
 			
           }
                senao se (valor<50000){
           	calcularDes(0.02)
-          	escreva("Seu desconto será de 20% e o valor do seu veiculo é: ",valorF)
+          	escreva("Seu desconto será de 2% e o valor do seu veiculo é: ",valorF)
           }
           }
      }    
@@ -32,7 +32,7 @@ programa
     {
     	
     	por=desc*100
-     calDesc=valor*desc
+        calDesc=valor*desc
     	valorF=valor-calDesc
     }
     
