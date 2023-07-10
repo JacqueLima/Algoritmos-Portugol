@@ -31,7 +31,8 @@ programa
     funcao calcularDes(real d)
     {
     	
-    	desc=valor*desc
+    	por=desc*100
+     desc=valor*desc
     	valorF=valor-desc
     }
     
